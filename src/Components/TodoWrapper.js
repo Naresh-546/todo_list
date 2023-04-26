@@ -33,7 +33,7 @@ export const TodoWrapper = () => {
 
   return (
     <div className="todoWrapper">
-    <h1>Get Things Done!</h1>
+    <h1>Get Thing Done!</h1>
       <TodoForm addTodo={addTodo} />
       {dos.map((todo, index) => (
         todo.isEditing ?( 
